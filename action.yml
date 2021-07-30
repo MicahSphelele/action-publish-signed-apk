@@ -1,4 +1,4 @@
-name: "Release APK Publisher"
+name: "Signed Release APK Publisher"
 branding:
   icon: "package"
   color: "red"
