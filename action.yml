@@ -1,4 +1,4 @@
-name: "Debug APK Publisher"
+name: "Release APK Publisher"
 branding:
   icon: "package"
   color: "red"
