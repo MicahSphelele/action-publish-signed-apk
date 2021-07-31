@@ -1,10 +1,9 @@
 name: "Signed Release APK Publisher"
 branding:
   icon: "package"
-  color: "red"
+  color: "green"
 description: "Build & Publish Release APK on Github"
-author: "MicahSphelele
-"
+author: "MicahSphelele"
 inputs:
   GITHUB_TOKEN:
     required: true
@@ -12,6 +11,9 @@ inputs:
   REPO_BRANCH:
     required: false
     description: "Github repository branch name."
+  FILE_DIR:
+    required: true
+    description: "Directory to the file that will be added."
 runs:
   using: "docker"
   image: "Dockerfile"
