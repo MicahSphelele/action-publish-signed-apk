@@ -52,7 +52,7 @@ jobs:
       - name: Upload release APK
         uses: actions/upload-artifact@v2
         with:
-          name: inews-release.apk
+          name: app-release.apk
           path: ${{steps.sign_app.outputs.signedReleaseFile}}
 
       - name: Echo APK
