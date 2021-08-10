@@ -82,5 +82,5 @@ You'll need to provide these environment variables to specify exactly what infor
 * **FILE_DIR** this the directory of the apk file `app/build/outputs/apk/release/*-release.apk`
 
 ## Thanks to 🙌🏾
-[ShaunLWM/action-release-debugapk](https://github.com/ShaunLWM/action-release-debugapk)
-* 
+Inspired By [ShaunLWM/action-release-debugapk](https://github.com/ShaunLWM/action-release-debugapk)
+
